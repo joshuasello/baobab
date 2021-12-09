@@ -1,0 +1,24 @@
+{
+    "name": "marumo-digital/baobab-lib",
+    "type": "library",
+    "keywords": ["package", "framework", "website", "webapp", "routing", "development", "templating"],
+    "homepage": "http://marumodigital.co.za",
+    "authors": [
+        {
+            "name": "Joshua Sello",
+            "email": "joshuasello@gmail.com",
+            "homepage": "http://marumodigital.co.za",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Baobab\\": "src/"
+        }
+    },
+    "require": {
+        "eftec/bladeone": "^3.31@dev",
+        "leafo/scssphp": "0.0.12"
+    }
+}
